@@ -10,6 +10,6 @@ hamburgerBtn.addEventListener('click', function() {
 
 closeBtn.addEventListener('click', function() {
 
-      document.querySelector('.hamburger-menu').style.display = "none";
+    document.querySelector('.hamburger-menu').style.display = "none";
 
-})
+});
