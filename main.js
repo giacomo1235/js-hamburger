@@ -4,12 +4,12 @@ let closeBtn = document.querySelector('.close');
 
 hamburgerBtn.addEventListener('click', function() {
 
-    hamburger.style.display = "block";
+    hamburger.classList.add('active')
 
 });
 
 closeBtn.addEventListener('click', function() {
 
-    hamburger.style.display = "none";
+    hamburger.classList.remove('active')
 
 });
