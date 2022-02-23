@@ -4,12 +4,12 @@ let closeBtn = document.querySelector('.close');
 
 hamburgerBtn.addEventListener('click', function() {
 
-    document.querySelector('.hamburger-menu').style.display = "block";
+    hamburger.style.display = "block";
 
 });
 
 closeBtn.addEventListener('click', function() {
 
-    document.querySelector('.hamburger-menu').style.display = "none";
+    hamburger.style.display = "none";
 
 });
